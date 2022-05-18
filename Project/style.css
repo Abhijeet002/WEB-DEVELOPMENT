@@ -1,0 +1,443 @@
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  font-family: serif;
+  /* font-family: Gelion, Helvetica, "Helvetica Neue", Arial; */
+  font-family: "muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
+}
+hr{
+  margin: 0%;
+  padding: 0%;
+}
+
+.link {
+  font-style: oblique;
+  color: #ffc107;
+}
+.link:hover{
+    color: rgb(248, 178, 73);
+}
+
+a:hover {
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+p {
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 1.1rem;
+  color: #5f6368;
+  font-weight: normal;
+}
+
+.img-section {
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-position: 40% 13%;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.white-section {
+  background-color: rgb(255, 255, 255);
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+h4 {
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  line-height: 2;
+}
+
+.img-1 {
+  background-image: url(images/Fitness-girl.jpg);
+}
+
+.img-2 {
+  background-image: url(images/img-7.jpg);
+  background-position: top;
+}
+
+.img-3 {
+  background-image: url(images/img-9.jpg);
+}
+
+.img {
+  position: absolute;
+  z-index: -1;
+}
+.big-heading {
+  color: rgb(255, 255, 255);
+  padding: 7rem 5rem 0 ;
+  line-height: 2;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* .icon {
+  font-size: 1.2rem;
+  padding: 0px 7px;
+  margin-bottom: 12px;
+} */
+
+/* .nav-link {
+  font-family: sans-serif;
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+} */
+
+.nav-item {
+  padding: 0px 20px;
+}
+
+.brand {
+  font-size: 3.5rem;
+}
+
+#navbar {
+  padding: 45px 65px;
+  position: sticky;
+}
+
+.join{
+  padding: 5px 25px;
+  margin: 10px;
+  background-color:transparent;
+  border: 1px solid #13B378;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.join-1{
+  border: 1px solid #ffffff;
+}
+
+.join-2{
+  border: 1px solid #00D25D;
+  background-color:#00d25f;
+}
+
+.join-1:hover{
+  background-color: rgb(245, 245, 245);
+  color: #000;
+  transition: 0.8s;
+}
+
+.join-2:hover{
+  background-color:#03ba55;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+#title span {
+  color: #ffc107;
+}
+
+.button {
+  margin: 1.5rem 5.15rem 5rem;
+  border-radius: 2rem;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+
+#features {
+  padding: 5% 5%;
+}
+
+#features .feature-icon {
+  color: #f0de3a;
+  padding-top: 15px;
+}
+
+.card-title {
+  color: #000;
+}
+
+.feature-card {
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  width: 20rem;
+  padding: 5px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+.feature-card:hover {
+  background-color: #ffffff;
+  transition: 0.5s;
+  transform: translateY(30deg);
+  border-radius: 1rem;
+  transform: scale(1.02);
+  transition: 0.5s;
+  box-shadow: 1px 1px 100px 5px #c0bfbf69;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  padding: 10rem;
+}
+
+/* Contact- Page */
+
+#cta {
+  padding: 4rem;
+}
+
+.left {
+  padding-right: 5rem;
+  align-self: center;
+}
+
+.contact-form {
+  background-color: #ede0f571;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+
+.label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid rgb(170, 170, 170);
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #4b48fcd2;
+  border: 0px solid;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1.15rem;
+}
+
+.submit-button:hover {
+  background-color: #423fdaee;
+}
+
+.create-acc {
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.contact-quote {
+  font-size: 12px;
+  margin: 10px auto;
+}
+
+.card-head {
+  padding: 1rem 0;
+}
+
+.card-main {
+  /* padding: 1em ; */
+  padding-bottom: 0;
+}
+
+/* Trainer  */
+
+#trainers {
+  background-color: #eeeeeefa;
+  text-align: center;
+  padding: 3rem 10rem;
+  
+}
+
+.trainer{
+  width: 20%;
+  margin: 2rem auto;
+}
+
+.acc:hover{
+color:#8378cb;
+}
+
+
+/* Footer  */
+
+#footer{
+    /* color:rgb(255, 198, 0); */
+    font-size: 1.5rem;
+    background-color:#888787bd;
+}
+
+.footer-items {
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 20px 10px;
+  color: #000;
+}
+
+.social-icons:hover{
+  color:rgb(255, 198, 0)
+}
+
+
+/* Pricing  */
+
+#pricing{
+  padding: 2rem;
+  margin: 3rem;
+  /* text-align: center; */
+}
+
+#pricing h2, #pricing .plans{
+  text-align: center;
+  margin: 2rem;
+}
+
+.plans button{
+  border: 0px solid;
+}
+
+.card-header{
+  /* margin: 1rem; */
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+.card-name hr{
+  margin-bottom: 1rem;
+}
+
+.card-header h1 span{
+  font-size: large;
+  position: relative;
+  top: -15px;
+}
+
+
+.card-content p{
+  display: inline-block;
+}
+
+
+#pricing p{
+  font-size: 16px ;
+  padding: 0 5px;
+}
+
+#pricing h1{
+  font-weight: normal;
+  font-size:3rem;
+}
+#pricing .col-sm-2{
+  /* background-color: #ffc107; */
+  width: 10%;
+}
+
+.plans{
+  justify-content: center;
+  margin: 5px;
+}
+
+.plans>button{
+  border: 2px solid rgba(255, 200, 0, 0.781);
+  padding: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.basic{
+  border: 5px solid #000000;
+  border-radius: 5px 0 0 5px;
+}
+
+.standard{
+  border: 2px solid rgba(255, 200, 0, 0.781);
+  border-radius: 0 5px 5px 0;
+}
+
+.basic:hover, .standard:hover{
+  background-color: rgba(255, 200, 0, 0.781) ;
+  transition: 0.8s;
+}
+
+
+.card-body{
+  margin: 0;
+  padding: 0;
+}
+
+.tag{
+  font-size: small;
+  letter-spacing: 3px;
+  background-color: rgb(255, 198, 0);
+  padding: 0 8px;
+  border-radius: 0 2px 0 4px;
+  /* padding-right: 8px; */
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.hero{
+  font-size: 1.1rem;
+  letter-spacing:;
+  font-weight: 500;
+  color:  #595959;
+}
+
+.card-btn{
+  display: block;
+  margin: 2rem 0rem 1rem 0rem;
+  width: 100%;
+  text-align: left;
+  padding: 8px 1rem;
+  border-radius: 5px;
+  border: none 5px;
+  background: #c0bfbf69;
+}
+
+.popular{
+  border: solid rgb(255, 198, 0);
+}
+
+.popular-btn{
+  background: #fdcf43;
+}
+
+.icon-box{
+  color: rgb(170, 170, 170);
+}
+.card-btn{
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+}
